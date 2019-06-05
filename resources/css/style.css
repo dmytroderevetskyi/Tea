@@ -1,0 +1,161 @@
+*{
+  font-family: helvetica;
+  color: seashell;
+}
+body{
+  background-color: black;
+}
+/*----------------Header----------------*/
+.position{
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 4;
+}
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 69px;
+  font-size: 22px;
+  background-color: black;
+  opacity: 0.9;
+  border-style: solid;
+  border-width: thin;
+  border-color: seashell;
+  border-top: 1px;
+  border-left: 1px;
+  border-right: 1px;
+}
+.logo{
+  margin-left: 10px;
+}
+.navigation{
+  margin-right: 10px;
+}
+.n1, .n2, .n3{
+  text-decoration: underline;
+}
+/*----------------Header----------------*/
+/*----------------Main Structure----------------*/
+.main{
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/*----------------Main Structure----------------*/
+/*----------------1st Block(Main)----------------*/
+.first{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-image: url('F:/Projects/Tea/resources/photos/mission-background.jpg');
+  margin-top: 60px;
+  width: 1200px;
+  height: 700px;
+}
+.first1, .first2{
+  font-size: 22px;
+  background-color: black;
+  z-index: 3;
+}
+.first1{
+  height: 70px;
+  padding: 0px 0px;
+}
+.first2{
+  padding: 0px 0px;
+  height: 70px;
+}
+/*----------------1st Block(Main)----------------*/
+/*----------------2st Block(Main)----------------*/
+.second{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 1000px;
+  height: 700px;
+  border-style: solid;
+  border-color: black;
+  text-align: center;
+  font-size: 22px;
+  background-color: black;
+}
+.block1{
+  text-align: center;
+  width: 1000px;
+}
+.block2, .block3, .block5{
+  margin-right: 20px;
+}
+.block2_2 h4, .block3_2 h4, .block4_2 h4, .block5_2 h4, .block6_2 h4{
+  margin-top: 10px;
+}
+/*----------------2st Block(Main)----------------*/
+/*----------------3st Block(Main)----------------*/
+.third{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+  background-image: url('F:/Projects/Tea/resources/photos/locations-background.jpg');
+  background-size: auto;
+  width: 1200px;
+  height: 700px;
+  z-index: 2;
+  margin-top: 100px;
+}
+.third2_1, .third2_2, .third2_3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 25px;
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  font-size: 22px;
+  opacity: 1;
+}
+.third1{
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  font-size: 22px;
+  width: 1200px;
+  height: 60px;
+}
+.third2{
+  display: flex;
+  flex-direction: row;
+  height: 300px;
+  margin-top: 15px;
+}
+.third2_1, .third2_2{
+  margin-right: 40px;
+}
+/*----------------3st Block(Main)----------------*/
+/*----------------4st Block(Main)----------------*/
+.fourth{
+  text-align: center;
+  font-size: 22px;
+  background-color: black;
+  height: 200px;
+}
+/*----------------4st Block(Main)----------------*/
+/*----------------Footer----------------*/
+footer{
+  font-size: 22px;
+  background-color: black;
+  margin-left: 20px;
+}
+/*----------------Footer----------------*/
